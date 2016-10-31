@@ -1,11 +1,6 @@
 ( function( window ) {
 
 'use strict';
-
-function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-}
-
 var hasClass, addClass, removeClass;
 
 if ( 'classList' in document.documentElement ) {
@@ -25,11 +20,11 @@ else {
   };
   addClass = function( elem, c ) {
     if ( !hasClass( elem, c ) ) {
-      elem.className = elem.className + ' ' + c;
+      elem.className = elem.className;
     }
   };
   removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
+    elem.className = elem.className.replace( classReg( c ));
   };
 }
 
