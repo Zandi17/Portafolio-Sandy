@@ -47,6 +47,12 @@ h1,h2,h3,h4,h5,h6{
  .portfolio-caption{
  	color: #fed136
  }
+ .portfolio-hover{
+
+ }
+ .portfolio-hover-content{
+
+ }
 @media (min-width:768px){
  .navbar-default{
  	background-color:transparent;
@@ -181,3 +187,4 @@ section#contact{
 .mg-center{
 	margin: 0 auto;
 }
+
