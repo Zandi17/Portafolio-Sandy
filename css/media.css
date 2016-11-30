@@ -180,7 +180,7 @@
  	float:right;
  	padding:0 20px 0 100px;
  	position:relative;
- 	text-align:left
+ 	text-align:right;
  }
  .timeline>li .timeline-panel:before{
  	border-left-width:0;
@@ -191,10 +191,12 @@
  .timeline>li .timeline-panel:after{
  	border-left-width:0;
  	border-right-width:14px;
- 	left:-14px;right:auto
+ 	left:-14px;
+ 	right:auto
  }
  .timeline>li .timeline-image{
- 	left:0;margin-left:0;
+ 	left:0;
+ 	margin-left:0;
  	width:80px;
  	height:80px;
  	position:absolute;
@@ -225,7 +227,7 @@
  	width:41%;
  	float:left;
  	padding:0 20px 20px 30px;
- 	text-align:right
+ 	text-align:right;
  }
  .timeline>li .timeline-image{
  	width:100px;
