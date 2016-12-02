@@ -413,9 +413,11 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	color:#fed136;
 	font-size: 2rem;
 }
-
+.pd-5{
+	margin-bottom: 5rem;
+}
 .mg-bt{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 .skills:hover{
 	cursor:pointer;
@@ -444,6 +446,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	-webkit-transition:all 2s ease;
 	-moz-transition:all 2s ease;
 	transition:all 2s ease;
+	color:#31333F;
 }
 .skills ul li:last-child{position:relative;}
 .skills:nth-child(1) ul li:nth-child(10){ background:#31333F;}
@@ -472,17 +475,22 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 .skills:nth-child(4) ul li:nth-child(7){ background:#31333F;}
 .skills:nth-child(4) ul li:nth-child(6){ background:#31333F;}
 
-.skills i{color:#fff; font-size:3em;position:relative;top:25px;display:block;	-webkit-transition:all 2s ease;	-moz-transition:all 2s ease;
-	transition:all 2s ease;}
-.skills:nth-child(1):hover li:nth-child(11) i
-{
+.skills i{
+	color:#fff; 
+	font-size:3em;
+	position:relative;
+	top:25px;display:block;	
+	-webkit-transition:all 2s ease;
+	-moz-transition:all 2s ease;
+	transition:all 2s ease;
+}
+.skills:nth-child(1):hover li:nth-child(11) i{
 	-webkit-transition:all 1s ease;
 	-moz-transition:all 1s ease;
 	transition:all 1s ease;
 	color:#31333F;
 }
-.skills li:last-child:after
-{
+.skills li:last-child:after{
 	position:absolute;
     display:block;
     left:22px;
@@ -510,7 +518,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
 	transition:all 0.5s ease;
-	color:#31333F;
+	color:white
 }
 .skills:nth-child(1):hover li:nth-child(10) {
 	background:#fed136;
@@ -609,11 +617,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 .skills :nth-child(3):hover li:nth-child(4) {background:#f00;-webkit-transition:all 3.5s ease;-moz-transition:all 3.5s ease;transition:all 3.5s ease;}
 .skills :nth-child(3):hover li:nth-child(3) {background:#f00;-webkit-transition:all 4s ease;-moz-transition:all 4.5s ease;transition:all 4.5s ease;}
 .skills :nth-child(3):hover li:nth-child(2) {background:#f00;-webkit-transition:all 5s ease;-moz-transition:all 5s ease;transition:all 5s ease;}
-.skills:nth-child(4):hover li:nth-child(11) {
-	background:#027844;
-	-webkit-transition:all 0.5s ease;
-	-moz-transition:all 0.5s ease;
-	transition:all 0.5s ease;
+.skills:nth-child(4):hover li:nth-child(11) {background:#027844;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;
 }
 .skills:nth-child(4):hover li:nth-child(11) i
 {
@@ -626,6 +630,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	margin: 2rem;
 	width: 	4rem;
 	height: 4rem;
+	margin-top: 0;
 }
 .skills:nth-child(4):hover li:nth-child(10) {background:#027844;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;}
 .skills:nth-child(4):hover li:nth-child(9) {background:#027844;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
