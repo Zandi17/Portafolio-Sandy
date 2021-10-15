@@ -83,7 +83,7 @@ background-color:#fed136;
 	}*/
 }
  header{
- 	background-image:url(../img/indie.jpg);
+ 	background-image:url(../img/css_code.jpg);
  	background-repeat:none;
  	background-attachment:fixed;
  	background-position:center center;
@@ -107,12 +107,12 @@ background-color:#fed136;
  	margin-bottom:25px
  }
  header .intro-text .intro-heading{
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: inherit;
     font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;	
+    line-height: 100px;
+    margin-bottom: 40px;	
  }
 section{
 	padding:100px 0
@@ -120,7 +120,7 @@ section{
 section h2.section-heading{
 	font-size:40px;
 	margin-top:0;
-	margin-bottom:15px;
+	margin-bottom:7rem;
 }
 section h3.section-subheading{
 	font-size:16px;
@@ -132,7 +132,7 @@ section h3.section-subheading{
 
 @media (min-width:768px){
 	section{
-			padding:150px 0
+			padding:120px 0
 	}
 }
 
@@ -406,13 +406,13 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
  	color:#fed136;
  	font-size: 1rem;
  }
-#hobbies .hob .more h3:hover,
+/*#hobbies .hob .more h3:hover,
 #hobbies .hob .more h3:active,
 #hobbies .hob .more p:hover,
 #hobbies .hob .more p:active {
 	color:#fed136;
 	font-size: 2rem;
-}
+}*/
 .pd-5{
 	margin-bottom: 5rem;
 }
